@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="740" height="380" viewBox="0 0 740 380" font-family="Menlo, Consolas, monospace" font-size="14">
+  <rect width="740" height="380" rx="10" fill="#101418"/>
+  <circle cx="24" cy="22" r="6" fill="#ff5f56"/>
+  <circle cx="44" cy="22" r="6" fill="#ffbd2e"/>
+  <circle cx="64" cy="22" r="6" fill="#27c93f"/>
+  <text x="370" y="27" fill="#8b949e" text-anchor="middle" font-size="12">costlock — fail the build before the invoice does</text>
+  <g fill="#c9d1d9">
+    <text x="24" y="62"><tspan fill="#7ee787">$</tspan> costlock check test-logs/</text>
+    <text x="24" y="92"><tspan fill="#79c0ff">costlock check</tspan> — costlock.json vs 1 source(s), 12 record(s)</text>
+    <text x="24" y="126" fill="#d2a8ff">suite          baseline     current     delta     limit  verdict</text>
+    <text x="24" y="150">integration     $0.2126     <tspan fill="#f778ba">$0.4440</tspan>   <tspan fill="#f778ba">+108.9%</tspan>    +10.0%  <tspan fill="#ff7b72">BREACH</tspan></text>
+    <text x="24" y="172">unit            $0.0053     $0.0053     +0.0%    +10.0%  <tspan fill="#7ee787">ok</tspan></text>
+    <text x="24" y="194">total           $0.2179     <tspan fill="#f778ba">$0.4493</tspan>   <tspan fill="#f778ba">+106.2%</tspan>    +10.0%  <tspan fill="#ff7b72">BREACH</tspan></text>
+    <text x="24" y="232" fill="#ff7b72">breach: integration: cost +108.9% exceeds tolerance +10.0% ($0.2126 → $0.4440)</text>
+    <text x="24" y="254" fill="#ff7b72">breach: total: cost +106.2% exceeds tolerance +10.0% ($0.2179 → $0.4493)</text>
+    <text x="24" y="292">check: <tspan fill="#ff7b72">FAIL</tspan></text>
+    <text x="24" y="326"><tspan fill="#7ee787">$</tspan> echo $?</text>
+    <text x="24" y="350"><tspan fill="#ffbd2e">1</tspan>   <tspan fill="#8b949e"># your CI job just saved next month's invoice</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+{"suite":"integration","model":"claude-sonnet-4-5-20250929","usage":{"input_tokens":21000,"output_tokens":2600}}
+{"suite":"integration","model":"claude-sonnet-4-5-20250929","usage":{"input_tokens":20400,"output_tokens":2480,"cache_read_input_tokens":20000}}
+{"suite":"integration","model":"claude-sonnet-4-5-20250929","usage":{"input_tokens":21800,"output_tokens":2710,"cache_creation_input_tokens":8000}}
+{"suite":"integration","model":"claude-sonnet-4-5-20250929","usage":{"input_tokens":20900,"output_tokens":2590}}
+{"suite":"unit","model":"gpt-4o-mini-2024-07-18","usage":{"prompt_tokens":3000,"completion_tokens":400}}
+{"suite":"unit","model":"gpt-4o-mini-2024-07-18","usage":{"prompt_tokens":2800,"completion_tokens":380}}
+{"suite":"unit","model":"gpt-4o-mini-2024-07-18","usage":{"prompt_tokens":3100,"completion_tokens":410,"prompt_tokens_details":{"cached_tokens":1024}}}
+{"suite":"unit","model":"gpt-4o-mini-2024-07-18","usage":{"prompt_tokens":2950,"completion_tokens":395}}
+{"suite":"unit","model":"gpt-4o-mini-2024-07-18","usage":{"prompt_tokens":3050,"completion_tokens":405}}
+{"suite":"unit","model":"gpt-4o-mini-2024-07-18","usage":{"prompt_tokens":2900,"completion_tokens":390}}
+{"suite":"unit","model":"gpt-4o-mini-2024-07-18","usage":{"prompt_tokens":3000,"completion_tokens":400}}
+{"suite":"unit","model":"gpt-4o-mini-2024-07-18","usage":{"prompt_tokens":3010,"completion_tokens":402}}
